@@ -1,0 +1,142 @@
+*{
+    font-family: 'Arimo';
+}
+.ag-nav{
+    img{
+        height: 2rem; //1rem=16px //hien anh 32px
+    }
+}
+.ag-header{
+    background-image: url(../image/header-bg.jpg);//..vi lay tu file index.css nen phai .. de di ra file asset va chon file cung cap bac
+    height: 750px;
+    background-position: center;
+    background-size: cover;
+    .subtite{
+        font-size: 36px;
+    }
+    .tile{
+        font-size: 72px;
+        font-weight: 700;
+    }
+    .tell-me{
+        background-color: #ffc800;
+        padding: 20px 40px;
+    }
+}
+.SERVICES{
+    padding-top: 90px;
+    padding-bottom: 80px;
+    .headline-service{
+        h2{
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        h3{
+            font-size: 1rem;
+        }
+    }
+    .align-items-start{  
+        .img-thumbnail{
+            height: 100px;
+            border-radius: 52px;
+            width: 37%;
+            background-color: yellow;
+        }
+        h4{
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        p{
+            color: #708291;
+        }
+    }
+}
+.PORTFOLIO{
+    background-color: #f8f9fa;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    .headline-portfolio{
+        h2{
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        h3{
+            font-size: 1rem;
+            font-weight: 400;
+            color: #9cb3be;
+        }
+    }
+    .col{
+        background-color: white;
+        padding: 0;
+        margin-right: 25px;
+    }
+    .image-wrapper{
+        // height: 200px;
+        &:hover::before{
+            background-color: rgba(255,200,0,0.9);
+            filter: brightness(50%);
+        }
+    }
+    .img-thumbnail{
+        padding: 0;
+        border: none;
+    }
+    .portfolio-caption{
+        .portfolio-caption-heading{
+            font-weight: 700;
+
+        }
+    }
+}
+.ABOUT{
+    padding-top: 90px;
+    padding-bottom: 80px;
+    .headline-about{
+        h2{
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        h3{
+            font-size: 1rem;
+            font-weight: 400;
+            color: #9cb3be;
+        }
+    }
+    .image1-2019{
+        h4{
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .image-caption{
+            width: 61%;
+            margin-left: 15.75rem;
+            color:  #9cb3be;
+        }
+        img{
+            width: 23%;
+            border-radius: 71px;
+            border: 6px solid #e9ecef;
+        }
+
+    }
+    .image2-2011{
+        img{
+            width: 23%;
+            border-radius: 71%;
+            border: 6px solid #e9ecef;
+            // &::after{
+            //     content: '2019';
+            // }
+        }
+        h4{
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .image-caption{
+            width: 61%;
+            color:  #9cb3be;
+        }
+    }
+   
+}
